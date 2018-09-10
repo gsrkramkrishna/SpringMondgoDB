@@ -41,4 +41,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return repository.findAll();
 	}
 
+	@Override
+	public Employee addEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		return repository.save(emp);
+	}
+
 }

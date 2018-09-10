@@ -11,4 +11,5 @@ public interface EmployeeService {
 	List<Employee> findEmployeesByLastName(String lastName);
 	List<Employee> findEmployeesBySalary(Long salary);
 	List<Employee> findAll();
+	Employee addEmployee(Employee emp);
 }

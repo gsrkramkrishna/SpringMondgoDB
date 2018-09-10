@@ -8,14 +8,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Employee {
 	@Id
 	@Indexed(unique=true)
-	private Long id;
+	private String id;
 	private String firstName;
     private String lastName;
     private Long salary;
-	public Long getId() {
+    
+	public String getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getFirstName() {
@@ -36,7 +37,7 @@ public class Employee {
 	public void setSalary(Long salary) {
 		this.salary = salary;
 	}
-	public Employee(Long id, String firstName, String lastName, Long salary) {
+	public Employee(String id, String firstName, String lastName, Long salary) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
