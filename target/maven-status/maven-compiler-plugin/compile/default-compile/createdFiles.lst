@@ -1,0 +1,6 @@
+com\gsrk\mongodb\SpringBootMongoDBApplication.class
+com\gsrk\mongodb\repository\EmployeeRepository.class
+com\gsrk\mongodb\service\EmployeeServiceImpl.class
+com\gsrk\mongodb\model\Employee.class
+com\gsrk\mongodb\service\EmployeeService.class
+com\gsrk\mongodb\resource\EmployeeResource.class
