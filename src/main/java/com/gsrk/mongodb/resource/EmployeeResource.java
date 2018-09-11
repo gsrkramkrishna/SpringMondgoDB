@@ -3,6 +3,7 @@ package com.gsrk.mongodb.resource;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -38,6 +39,13 @@ public class EmployeeResource {
 	Employee addEmployee(@RequestBody Employee emp){
 		System.out.println("add user is invoked");
 		return employeeService.addEmployee(emp);
+	}
+	
+	@RequestMapping(method=RequestMethod.GET,value="/find/{id}")
+	@ResponseBody
+	Employee findEmployeeById(@PathVariable("id") String employeeId){
+		System.out.println("find employee is invoked");
+		return employeeService.findEmployeeById(employeeId);
 	}
 	
 

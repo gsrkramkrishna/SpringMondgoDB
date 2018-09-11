@@ -8,8 +8,8 @@ import org.springframework.stereotype.Repository;
 import com.gsrk.mongodb.model.Employee;
 
 @Repository
-public interface EmployeeRepository extends MongoRepository<Employee, Long>{
-	Employee findEmployeeById(Long id);
+public interface EmployeeRepository extends MongoRepository<Employee, String>{
+	Employee findEmployeeById(String id);
 	List<Employee> findEmployeeByFirstName(String firstName);
 	List<Employee> findEmployeeByLastName(String lastName);
 	List<Employee> findEmployeeBySalary(Long salary);

@@ -6,7 +6,7 @@ import com.gsrk.mongodb.model.Employee;
 
 public interface EmployeeService {
 	
-	Employee findEmployeeById(Long id);
+	Employee findEmployeeById(String id);
 	List<Employee> findEmployeesByFirstName(String firstName);
 	List<Employee> findEmployeesByLastName(String lastName);
 	List<Employee> findEmployeesBySalary(Long salary);

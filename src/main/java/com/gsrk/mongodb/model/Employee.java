@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection="employees")
 public class Employee {
 	@Id
-	@Indexed(unique=true)
+	//@Indexed(unique=true)
 	private String id;
 	private String firstName;
     private String lastName;
