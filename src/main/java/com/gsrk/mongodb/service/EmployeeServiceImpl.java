@@ -16,7 +16,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
 	private EmployeeRepository repository;
 	
-	public Employee findEmployeeById(Long id) {
+	public Employee findEmployeeById(String id) {
 		// TODO Auto-generated method stub
 		return repository.findEmployeeById(id);
 	}
