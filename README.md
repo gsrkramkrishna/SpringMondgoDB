@@ -1,8 +1,9 @@
 # SpringMondgoDB
+Run the application first install mongodb in linux machine. I have installed mongodb in my linux machine.
 
-Please use the below commands to run the image.
+Please use the below commands to run the image in Docker Container.
 
-please intstall mongodb. I have intalled in my linux machine.
+Docker:
 
 please pull the latest mongo image.
 
