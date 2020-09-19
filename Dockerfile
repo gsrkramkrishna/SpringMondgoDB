@@ -1,5 +1,5 @@
 FROM openjdk:8
-ADD target/springmongodb-0.0.1-SNAPSHOT.jar springmongodb.jar
+ADD target/springmongodb-1.0.0.jar springmongodb.jar
 #ENTRYPOINT ["java", "-jar", "springmongodb.jar"]
 EXPOSE 8080
 RUN bash -c 'touch /springmongodb.jar'
