@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.gsrk.mongodb</groupId>
-  <artifactId>SpringMondgoDB</artifactId>
+  <artifactId>springmongodb</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
