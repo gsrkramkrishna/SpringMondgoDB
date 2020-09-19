@@ -7,7 +7,7 @@
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>SpringMondgoDB</name>
+  <name>springmongodb</name>
   <url>http://maven.apache.org</url>
 
   <properties>
